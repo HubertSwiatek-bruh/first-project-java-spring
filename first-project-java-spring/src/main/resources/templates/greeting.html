@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta http-equiv="Content-Type" content="text/html" charset="UTF-8"/>
+    <title>Greeting Page Java Spring</title>
+</head>
+<body>
+<p th:text="'Hello, ' + ${name} + '!'"/>
+<p>
+    Tekst typu przykładowy itp itd. a niżej logo Springa
+</p>
+<img th:src="@{/SpringLogo.png}" width="800" height="800"/>
+</body>
+</html>
